@@ -769,41 +769,39 @@ for (let a = 1; a <= 9; a++)
 # Nested Loops – _Examples_
 - Print all combinations from TOTO 6/49
 
-```cs
-static void Main()
-{		
-  int i1, i2, i3, i4, i5, i6;
-  for (i1 = 1; i1 <= 44; i1++)
+
+```javascript
+let i1, i2, i3, i4, i5, i6;
+for (i1 = 1; i1 <= 44; i1++)
     for (i2 = i1 + 1; i2 <= 45; i2++)
-      for (i3 = i2 + 1; i3 <= 46; i3++)
-        for (i4 = i3 + 1; i4 <= 47; i4++)
-          for (i5 = i4 + 1; i5 <= 48; i5++)
-            for (i6 = i5 + 1; i6 <= 49; i6++)
-              Console.WriteLine("{0} {1} {2} {3} {4} {5}",
-                i1, i2, i3, i4, i5, i6);
-}		
+        for (i3 = i2 + 1; i3 <= 46; i3++)
+            for (i4 = i3 + 1; i4 <= 47; i4++)
+                for (i5 = i4 + 1; i5 <= 48; i5++)
+                    for (i6 = i5 + 1; i6 <= 49; i6++)
+                        console.log(`${i1} ${i2} ${i3} ${i4} ${i5} ${i6}`);
 ```
 
-<div class="fragment balloon" style="top:21.52%; left:67.00%">Warning: execution of this code could take too long time.</div>
+<div class="fragment balloon" style="top:21.52%; left:67.00%">Warning: the execution of this code could take too long time.</div>
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # TOTO 6/49 -->
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/Toto)
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic28.png" style="top:55%; left:33%; width:35%; z-index:-1; border-radius: 15px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic28.png" style="top:55%; left:33%; width:35%; z-index:-1; border: 1px solid white; border-radius: 15px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Summary
-- C# supports four types of loops:
+- TypeScript supports five types of loops:
   - `while`
   - `do-while`
   - `for` loops
-  - `foreach` loops
+  - `for-in` loops
+  - `for-of` loops
 - Nested loops can be used to implement more complex logic
-- The operators `continue`, `break` & `goto` can control the loop execution
+- The operators `continue` & `break` can control the loop execution
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic29.png" style="top:15%; left:70%; width:28.21%; z-index:-1; border-radius: 15px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic29.png" style="top:21%; left:66%; width:28.21%; z-index:-1; border: 1px solid white; border-radius: 15px;" /> -->
 
 
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:false } -->
@@ -811,9 +809,10 @@ static void Main()
 ## Questions? -->
 
 
+// TODO 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
-- Fundamentals of C# ProgrammingTrack of Courses
+- Fundamentals of TypeScript Programming Track of Courses
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
   - Telerik Software Academy
     - [academy.telerik.com](academy.telerik.com)
