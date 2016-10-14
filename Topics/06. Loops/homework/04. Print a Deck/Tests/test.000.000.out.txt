@@ -1,0 +1,4 @@
+2 of spades, 2 of clubs, 2 of hearts, 2 of diamonds
+3 of spades, 3 of clubs, 3 of hearts, 3 of diamonds
+4 of spades, 4 of clubs, 4 of hearts, 4 of diamonds
+5 of spades, 5 of clubs, 5 of hearts, 5 of diamonds
