@@ -3,6 +3,7 @@
 # Loops
 ## Execute Blocks of Code Multiple Times
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic00.png" style="top:48%; left:58.48%; width:44.15%; z-index:-1; border: 1px solid white; border-radius: 15px;" /> -->
+
 <div class="signature">
 	<p class="signature-course">TypeScript Fundamentals</p>
 	<p class="signature-initiative">Telerik School Academy</p>
@@ -806,21 +807,22 @@ for (i1 = 1; i1 <= 44; i1++)
 
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Loops
-## Questions? -->
+## Any questions? -->
 
 
-// TODO 
+
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - Fundamentals of TypeScript Programming Track of Courses
-    - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
-  - Telerik Software Academy
+    - [typescript.fundamentals](http://telerikacademy.com/Courses/typescript-fundamentals)
+  - Telerik School Academy
     - [academy.telerik.com](academy.telerik.com)
   - Telerik Academy @ Facebook
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Academy Learning System
     - [telerikacademy.com](https://telerikacademy.com)
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic30.png" style="top:65%; left:75%; width:16.97%; z-index:-1; border-radius: 15px;" /> -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic31.png" style="top:34.35%; left:70%; width:25%; z-index:-1; border-radius: 15px;" /> -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic32.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1; border-radius: 15px;" /> -->
+
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic32.png" style="top:35%; left:75%; width:10.85%; z-index:-1; border-radius: 15px; border:1px solid white;" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic30.png" style="top:51%; left:75%; width:16.97%; z-index:-1; border-radius: 15px; border:1px solid white;" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic31.png" style="top:78%; left:75%; width:25%; z-index:-1; border-radius: 15px; border:1px solid white;" /> -->
