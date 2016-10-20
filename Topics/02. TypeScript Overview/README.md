@@ -52,24 +52,20 @@
 ## Demo
 
 
+<!-- section start -->
 
-  - TypeScript can be use in two primary ways:
-    1.  Compile to JavaScript and run the JavaScript in the browser or in Node.js
-    2.  Use a TypeScript Node.js runner, without compiling
+<!-- attr: {class: "slide-section", showInPresentation: true} -->
+<!-- # Running TypeScript in Visual Studio Code -->
+
+
+# Running TypeScript in Visual Studio Code
+
+- VS Code, by design, supports and lints TypeScript code
+- Yet, it can also run TypeScript
+  - Just follow the steps at [the official documentation](https://code.visualstudio.com/Docs/languages/typescript)
+- More, on the Tools presentation
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', clashowInPresentation: true, hasScriptWrapper: true } -->
 # TypeScript Overview
 ## Questions?
-
-<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
-# Free Training @ Telerik Academy
-
-- Fundamentals of C# Programming Track of Courses
-    - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
-  - Telerik Software Academy
-    - [telerikacademy.com](https://telerikacademy.com)
-  - Telerik Academy @ Facebook
-    - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
-  - Telerik Academy Learning System
-    - [telerikacademy.com](https://telerikacademy.com)
