@@ -1,7 +1,7 @@
 <!-- section start -->
 <!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Conditional Statements
-## Implementing Control Logic in C*#*
+## Implementing Control Logic in TypeScript
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic01.png" style="top:45%; left:6.55%; width:20.83%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:56%; left:50%; width:40%; z-index:-1; border-radius: 15px" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:12.06%; left:6.55%; width:15.07%; z-index:-1; border-radius: 15px" /> -->
@@ -30,7 +30,7 @@
 
 <!-- attr: { id:'operators', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 38px' } -->
 # <a id="operators"></a>Comparison Operators
-| Operator      | C# Notation   |
+| Operator      | TypeScript Notation   |
 | ------------- |:-------------:|
 | Equals        | `==`          |
 | Not Equals    | `!=`          |
@@ -41,16 +41,16 @@
 
 - _Example_:
 
-```cs
-bool result = 5 <= 6;
-Console.WriteLine(result); // outputs True
+```javascript
+let result = 5 <= 6;
+console.log(result); // outputs True
 ```
 
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Logical Operators
-| **Logical Operator**      | C# Notation   |
+| **Logical Operator**      | TypeScript Notation   |
 | ------------------------- |:-------------:|
 | **AND**                   | `&&`          |
 | **NOT**                   | `!`           |
@@ -79,9 +79,8 @@ Console.WriteLine(result); // outputs True
 - Branch to different parts of the code depending on the result
 - The simplest form of an `if` statement:
 
-```cs
-if (condition)
-{
+```javascript
+if (condition) {
     statements;
 }
 ```
@@ -111,24 +110,16 @@ if (condition)
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # The `if` Statement – _Example_
 
-```cs
-static void Main()
-{
-    Console.WriteLine("Enter two numbers.");
+```javascript
 
-    int biggerNumber = int.Parse(Console.ReadLine());
-    int smallerNumber = int.Parse(Console.ReadLine());
+let biggerNumber = 5;
+let smallerNumber = 6;
 
-    // condition
-    if (smallerNumber > biggerNumber)
-    {
-        // statement
-        biggerNumber = smallerNumber;
-    }
-
-    Console.WriteLine("The greater number is: {0}",
-                                        biggerNumber);
+if (smallerNumber > biggerNumber) {
+  biggerNumber = smallerNumber;
 }
+
+console.log(biggerNumber);
 ```
 
 
@@ -143,18 +134,13 @@ static void Main()
 - Executes one branch if the condition is `true`, and another if it is `false`
 - The simplest form of an `if-else` statement:
 
-```cs
-if (expression)
-{
+```javascript
+if (expression) {
     statement1;
-}
-else
-{
+} else {
     statement2;
 }
 ```
-
-
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # How It Works ?
@@ -169,21 +155,15 @@ else
 # `if-else` Statement – _Example_
 - Checking a number if it is odd or even
 
-```cs
-string s = Console.ReadLine();
-int number = int.Parse(s);
+```javascript
+let n = 15;
 
-if (number % 2 == 0)
-{
-    Console.WriteLine("This number is even.");
-}
-else
-{
-    Console.WriteLine("This number is odd.");
+if (number % 2 == 0) {
+    console.log("This number is even.");
+} else {
+    console.log("This number is odd.");
 }
 ```
-
-
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # The `if-else` Statement -->
@@ -202,20 +182,16 @@ else
 - `if` and `if-else` statements can be `nested`, i.e. used inside another `if` or `else` statement
 - Every `else` corresponds to its closest preceding `if`
 
-```cs
-if (expression)
-{
-    if (expression)
-    {
+```javascript
+if (expression) {
+    if (expression) {
+        statement;
+    } else {
         statement;
     }
-    else
-    {
-        statement;
-    }
-}
-else
+} else {
     statement;
+}
 ```
 
 
@@ -232,27 +208,17 @@ else
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Nested `if` Statements – _Example_
 
-```cs
-if (first == second)
-{
-    Console.WriteLine(
-        "These two numbers are equal.");
-}
-else
-{
-    if (first > second)
-    {
-        Console.WriteLine(
-            "The first number is bigger.");
-    }
-    else
-    {
-        Console.WriteLine("The second is bigger.");
+```javascript
+if (first == second) {
+    console.log("These two numbers are equal.");
+} else {
+    if (first > second) {
+        console.log("The first number is bigger.");
+    } else {
+        console.log("The second is bigger.");
     }
 }
 ```
-
-
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Nested `if` Statements -->
@@ -263,15 +229,12 @@ else
 - Sometimes we need to use another `if`-construction in the `else` block
   - Thus `else if` can be used:
 
-```cs
-int ch = 'X';
-if (ch == 'A' || ch == 'a')
-{
-    Console.WriteLine("Vowel [ei]");
-}
-else if (ch == 'E' || ch == 'e')
-{
-    Console.WriteLine("Vowel [i:]");
+```javascript
+let ch = "X";
+if (ch == 'A' || ch == 'a') {
+    console.log("Vowel [ei]");
+} else if (ch == 'E' || ch == 'e') {
+    console.log("Vowel [i:]");
 }
 else if  …
 else …
@@ -292,17 +255,17 @@ else …
 # <a id="switch"></a>The `switch-case` Statement
 - Selects for execution a statement from a list depending on the value of the `switch` expression
 
-```cs
+```javascript
 switch (day)
 {
-	case 1: Console.WriteLine("Monday"); break;
-	case 2: Console.WriteLine("Tuesday"); break;
-	case 3: Console.WriteLine("Wednesday"); break;
-	case 4: Console.WriteLine("Thursday"); break;
-	case 5: Console.WriteLine("Friday"); break;
-	case 6: Console.WriteLine("Saturday"); break;
-	case 7: Console.WriteLine("Sunday"); break;
-	default: Console.WriteLine("Error!"); break;
+	case 1: console.log("Monday"); break;
+	case 2: console.log("Tuesday"); break;
+	case 3: console.log("Wednesday"); break;
+	case 4: console.log("Thursday"); break;
+	case 5: console.log("Friday"); break;
+	case 6: console.log("Saturday"); break;
+	case 7: console.log("Sunday"); break;
+	default: console.log("Error!"); break;
 }
 ```
 
@@ -335,19 +298,19 @@ switch (day)
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Multiple Labels – _Example_
 
-```cs
+```javascript
 switch (animal)
 {
     case "dog" :
-        Console.WriteLine("MAMMAL");
+        console.log("MAMMAL");
         break;
     case "crocodile" :
     case "tortoise" :
     case "snake" :
-        Console.WriteLine("REPTILE");
+        console.log("REPTILE");
         break;
     default :
-        Console.WriteLine("There is no such animal!");
+        console.log("There is no such animal!");
         break;
 }
 ```
@@ -388,7 +351,7 @@ switch (animal)
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Free Trainings @ Telerik Academy
-- Fundamentals of C# Programming Track of Courses
+- Fundamentals of TypeScript Programming Track of Courses
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
   - Telerik Software Academy
     - [telerikacademy.com](https://telerikacademy.com)
