@@ -75,9 +75,21 @@
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Auto-compile TypeScript
- 1. Description
- - 1st step
- - 2nd step
+ 1. Open VS Code
+ - Create a new file inside the `root` directory called `tsconfig.json`
+ - Configure it like this:
+
+```javascript
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "watch": true,
+        "inlineSourceMap": true,
+        "outFile": "{fileName}.js",
+        "target": "ES5"
+    }
+}
+```
 
 
 
@@ -91,9 +103,32 @@
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Execute TypeScript
-1. Description
-- 1st step
-- 2nd step
+  1. Open VS Code
+  - Press `CTRL + SHIFT + P`
+  - Write `task`
+  - Select `Tasks: Configure Task Runner`
+  - Select `TypeScript - tsconfig.json`
+  - Press `CTRL + SHIFT + B` to run the task in watch mode
+
+
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
+# Execute TypeScript
+
+ - The generated `launch.json` file should look like this
+
+```javascript
+{
+    "version": "0.1.0",
+    "command": "tsc",
+    "isShellCommand": true,
+    "args": ["-p", "."],
+    "showOutput": "silent",
+    "problemMatcher": "$tsc"
+}
+```
+ - Press `CTRL + F5` to execute your `ts` file.
 
 
 
@@ -108,9 +143,11 @@
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Debug TypeScript
-1. Description
-- 1st step
-- 2nd step
+  1. Once the automatic execution is set up, the debugging process is trivial
+  - Select `breakpoints` on the lines that you wish to debug
+  - Start the debugger with `F5`
+  - Jump to the next `statement` with `F11`
+  - Jump to the next `breakpoint` with `F5`
 
 
 
