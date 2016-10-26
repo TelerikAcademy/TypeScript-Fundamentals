@@ -7,7 +7,7 @@
  	[![1212.png](http://s21.postimg.org/lvx2gz0bb/1212.png)](http://postimg.org/image/k443m2gyb/)
  5.  Click on the **homework link**  and the browser will redirect you to the **description** where you can see the tasks.
  6. Click on the **green button "Compete"**.
-	[![1213.png](https://s22.postimg.org/oinniqrht/1213.png)](https://postimg.org/image/hs769b4bx/)
+	[![1213.png](http://s18.postimg.org/hlsqvefjt/1213.png)](http://postimg.org/image/v2ppe9pv9/)
  7. Enter your  **student number** if requested.
  	[![1214.png](https://s16.postimg.org/cvv1oxqrp/1214.png)](https://postimg.org/image/eno0jua4h/)
  8. Select a task, **read the description** and **solve it** using the **TypeScript** programming language.
