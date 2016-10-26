@@ -4,7 +4,7 @@
  2. Log in **bgcoder.com** with your newly registered account.
  3. Go to the **"TypeScript Fundamentals"** [course page](http://telerikacademy.com/Courses/Courses/Details/383) at [telerikacademy.com](http://telerikacademy.com/)
  4. Some of the lectures have **homeworks** (the links colored in yellow)
- 	[1212.png](http://postimg.org/image/k443m2gyb/)
+ 	[![1212.png](http://s21.postimg.org/lvx2gz0bb/1212.png)](http://postimg.org/image/k443m2gyb/)
  5.  Click on the **homework link**  and the browser will redirect you to the **description** where you can see the tasks.
  6. Click on the **green button "Compete"**.
 	[![1213.png](https://s22.postimg.org/oinniqrht/1213.png)](https://postimg.org/image/hs769b4bx/)
