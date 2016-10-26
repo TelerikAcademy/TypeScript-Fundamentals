@@ -9,7 +9,7 @@
  6. Click on the **green button "Compete"**.
 	[![1213.png](http://s18.postimg.org/hlsqvefjt/1213.png)](http://postimg.org/image/v2ppe9pv9/)
  7. Enter your  **student number** if requested.
- 	[![1214.png](https://s16.postimg.org/cvv1oxqrp/1214.png)](https://postimg.org/image/eno0jua4h/)
+ 	[![1214.png](http://s21.postimg.org/ddkjjp5av/1214.png)](http://postimg.org/image/6aco42zv7/)
  8. Select a task, **read the description** and **solve it** using the **TypeScript** programming language.
  9. Compile the **"*.ts"** file to a **"*.js"** file (target **ES5**)
  10. Select execution strategy **"JavaScript code (ES 2015)"** and **submit your compiled JavaScript code**.
