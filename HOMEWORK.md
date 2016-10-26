@@ -13,4 +13,4 @@
  8. Select a task, **read the description** and **solve it** using the **TypeScript** programming language.
  9. Compile the **"*.ts"** file to a **"*.js"** file (target **ES5**)
  10. Select execution strategy **"JavaScript code (ES 2015)"** and **submit your compiled JavaScript code**.
-	[![1215.png](https://s16.postimg.org/7hz7btqnp/1215.png)](https://postimg.org/image/p80vwv48h/)
+	[![1215.png](http://s12.postimg.org/qiq2u7b3h/1215.png)](http://postimg.org/image/70vfe9e5l/)
